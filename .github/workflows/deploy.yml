@@ -3,8 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # deploy when pushing to main branch
-  workflow_dispatch: # allow manual deployment
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -31,6 +31,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          BASE_URL: "/${{ github.event.repository.name }}"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
