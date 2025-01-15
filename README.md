@@ -1,8 +1,24 @@
-# React + Vite
+# Reddit Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Reddit client built with React, focusing on displaying multiple subreddits in customizable lanes. This project is part of the frontend learning path from [roadmap.sh](https://roadmap.sh/frontend).
 
-Currently, two official plugins are available:
+### Live Demo
+[View Demo](https://faizaazam-1.github.io/Reddit-Client/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Preview
+### Preview
+<img src="https://raw.githubusercontent.com/faizaazam-1/Reddit-Client/main/public/RedditClient-preview.png" alt="Reddit Client Preview" width="450px">
+
+### Built With
+- React - Vite 
+- Tailwind CSS
+- Framer Motion
+- Reddit JSON API
+
+## Project Requirements
+This project is created following the requirements from:
+[https://roadmap.sh/projects/reddit-client](https://roadmap.sh/projects/reddit-client)
+
+## Author
+Faiza Azam
+- GitHub: [@faizaazam-1](https://github.com/faizaazam-1)
