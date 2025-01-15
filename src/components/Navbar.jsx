@@ -15,7 +15,7 @@ function Navbar() {
           </div>
 
           <a
-            href="YOUR_GITHUB_REPO_URL" // Replace with your GitHub repo URL
+            href="https://github.com/faizaazam-1/Reddit-Client" // Replace with your GitHub repo URL
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-700 hover:text-primary-500 transition-colors"
